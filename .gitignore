@@ -1,0 +1,6 @@
+*.DS_Store
+*.lck
+*autosave*
+gerber_to_order/
+*backups/
+Lattice Documentation/
