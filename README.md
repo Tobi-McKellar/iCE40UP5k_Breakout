@@ -9,5 +9,6 @@ The V1 Board:
 The V2 PCB design can be seen below:
 
 
-<img width="688" alt="image" src="https://github.com/Tobi-McKellar/iCE40UP5k_Breakout/assets/109800333/13d65a5a-ac65-41ae-b0d8-bd069209ebe4">
-<img width="659" alt="image" src="https://github.com/Tobi-McKellar/iCE40UP5k_Breakout/assets/109800333/38895b82-6aab-4b51-bcdf-21bf8be66d54">
+
+<img width="777" alt="image" src="https://github.com/Tobi-McKellar/iCE40UP5k_Breakout/assets/109800333/99c9e4d2-dfe9-4964-99f4-619fa705a4ce">
+<img width="548" alt="image" src="https://github.com/Tobi-McKellar/iCE40UP5k_Breakout/assets/109800333/8e56ffb5-2542-4a15-b5b0-4647992470f4">
