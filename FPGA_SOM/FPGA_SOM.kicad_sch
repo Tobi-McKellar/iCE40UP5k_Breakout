@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "FPGA System on Module")
+    (rev "2")
+    (company "Tobias McKellar")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 6.858 0)
@@ -1559,9 +1565,6 @@
   (junction (at 130.175 111.125) (diameter 0) (color 0 0 0 0)
     (uuid 356c14c5-242e-4489-b441-b6243fd7a7a3)
   )
-  (junction (at 165.1 153.67) (diameter 0) (color 0 0 0 0)
-    (uuid 37b9c287-cd0c-4872-8f61-e9edd9d58233)
-  )
   (junction (at 38.735 111.76) (diameter 0) (color 0 0 0 0)
     (uuid 38cb0616-efc9-4f84-8a64-7bbb4249fde8)
   )
@@ -1845,10 +1848,6 @@
     (stroke (width 0) (type default))
     (uuid 5ef36114-94a6-408e-8711-c127f0f8b325)
   )
-  (wire (pts (xy 90.805 180.975) (xy 80.645 180.975))
-    (stroke (width 0) (type default))
-    (uuid 603c20ae-0469-4cbc-a3d7-9f68391d9e9a)
-  )
   (wire (pts (xy 33.655 53.975) (xy 40.64 53.975))
     (stroke (width 0) (type default))
     (uuid 65627cfa-1afb-4f8f-992e-d8dcf663eee9)
@@ -1912,10 +1911,6 @@
   (wire (pts (xy 143.51 73.66) (xy 147.955 73.66))
     (stroke (width 0) (type default))
     (uuid 8aba69ad-7c64-427b-bea1-10d725eb8945)
-  )
-  (wire (pts (xy 90.805 178.435) (xy 80.645 178.435))
-    (stroke (width 0) (type default))
-    (uuid 8d83ff1c-fc6c-4f0a-b3e1-f73bf3c13644)
   )
   (wire (pts (xy 45.72 24.765) (xy 34.29 24.765))
     (stroke (width 0) (type default))
@@ -2853,31 +2848,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 90.805 178.435 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 05648600-3267-42c2-9bd5-f512163eed81)
-    (property "Reference" "TP10" (at 89.5929 173.736 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "~{RST}" (at 92.0171 173.736 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm" (at 95.885 178.435 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 95.885 178.435 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid af820ae7-90a5-44a6-9fc9-7a92e32d71f1))
-    (instances
-      (project "FPGA_SOM"
-        (path "/c9513ae4-ec90-4b73-ae24-d135d02c4e68"
-          (reference "TP10") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector:TestPoint") (at 176.53 131.445 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06b4dabd-b057-4cc3-9625-07f7509d4a84)
@@ -3097,31 +3067,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 165.1 153.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0f3f95d8-7983-49a6-aff0-ae1fbc3559a1)
-    (property "Reference" "TP12" (at 166.497 149.1559 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "OSC" (at 166.497 151.5801 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm" (at 170.18 153.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 170.18 153.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 326a29cd-5b2c-495c-a635-f870e00ac0c5))
-    (instances
-      (project "FPGA_SOM"
-        (path "/c9513ae4-ec90-4b73-ae24-d135d02c4e68"
-          (reference "TP12") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 38.1 149.225 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 158c07af-8fb1-4fb9-bb58-ee26407076e7)
@@ -3151,31 +3096,6 @@
       (project "FPGA_SOM"
         (path "/c9513ae4-ec90-4b73-ae24-d135d02c4e68"
           (reference "C9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 90.805 180.975 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1b66a61a-08b9-45dc-be25-a6875ed1b037)
-    (property "Reference" "TP11" (at 92.202 183.0649 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "CDN" (at 92.202 185.4891 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm" (at 85.725 180.975 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 85.725 180.975 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 632057eb-1f2e-4170-bddc-39ebcd5dc442))
-    (instances
-      (project "FPGA_SOM"
-        (path "/c9513ae4-ec90-4b73-ae24-d135d02c4e68"
-          (reference "TP11") (unit 1)
         )
       )
     )
