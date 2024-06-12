@@ -2521,6 +2521,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 56d377cc-0f6d-46ef-95c7-486ce60ae08e)
   )
+  (text "PIO default to pullup if unused." (at 15.875 86.995 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 58dbdde6-5dae-45b0-8ad8-0bd357de8dd3)
+  )
   (text "Jump the header to programme\nthe flash. Leave open to program FPGA."
     (at 100.33 100.965 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2534,7 +2538,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 75e19b88-edc2-4a62-83a9-c2efc04c9ad8)
   )
-  (text "Revision notes for R2:\n1. Get a stencil\n2. Line up header pins\n3. UP5K seems to use actual pin number in pcf. Should change labelling on silkscrren to match.\n4. Ensure capacitors go in the right place\n5. Remember store uses 0805 caps for > 10uF\n6. Flash DO should go to FPGA SI\n7. Flash DI should go to FPGA SO\n8. Should break out CDONE Pin\n9. Should have more ground/pwr pins.\n10. put a poka yoke on the miso/mosi lines\n11. Ensure all passive values exist.\n12. Add m3 mounting holes.\n13. Use 3V3 for VPP2v%.\n14. Find a 1.2V power indicator LED. Change all power LEDs to that color.\n15. Use better linear regulators.\n16. CRESET needs 10k Pull-up\n17. Don't need 10nF capacitors for FPGA.\n18. LDOs should only have 1-2.2uF output capacitance. "
+  (text "Revision notes for R2:\n1. Get a stencil\n2. Line up header pins\n3. UP5K seems to use actual pin number in pcf. Should change labelling on silkscreen to match.\n4. Ensure capacitors go in the right place\n5. Remember store uses 0805 caps for > 10uF\n6. Flash DO should go to FPGA SI\n7. Flash DI should go to FPGA SO\n8. Should break out CDONE Pin\n9. Should have more ground/pwr pins.\n10. put a poka yoke on the miso/mosi lines\n11. Ensure all passive values exist.\n12. Add m3 mounting holes.\n13. Use 3V3 for VPP2v5.\n14. Use better linear regulators.\n15. CRESET needs 10k Pull-up\n16. Don't need 10nF capacitors for FPGA.\n17. LDOs should only have 1-2.2uF output capacitance. "
     (at 193.04 58.42 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7cae924c-a6c1-4607-8e43-b6a5354445db)
