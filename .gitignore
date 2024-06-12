@@ -4,3 +4,5 @@
 gerber_to_order/
 *backups/
 Lattice Documentation/
+FPGA_SOM/fabrication-toolkit-options.json
+FPGA_SOM/production/

@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 4.0,
-          "width": 2.5
+          "height": 3.77,
+          "width": 2.35
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,9 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|121969999|134560001|1014d08c-ce34-4941-a8fe-ebabf803bc98|46897371-91e8-440c-97fc-2133ffbf1941"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -130,7 +128,7 @@
         "min_via_diameter": 0.25,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
