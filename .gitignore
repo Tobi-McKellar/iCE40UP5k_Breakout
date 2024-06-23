@@ -6,3 +6,8 @@ gerber_to_order/
 Lattice Documentation/
 FPGA_SOM/fabrication-toolkit-options.json
 FPGA_SOM/production/
+node_modules/
+package-lock.json
+package.json
+FPGA_SOM/#auto_saved_files#
+FPGA_SOM/ACustomFootprintLib.pretty/iCE40UP5K_WLCSP.kicad_mod
