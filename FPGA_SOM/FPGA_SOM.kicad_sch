@@ -8041,6 +8041,12 @@
 		)
 	)
 	(junction
+		(at 251.46 117.475)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00d8c525-5138-49a4-9dca-186ab20dd1de")
+	)
+	(junction
 		(at 172.085 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8129,12 +8135,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e4840df-4617-4675-96bf-d021bb027c8e")
-	)
-	(junction
-		(at 251.46 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f19a07e-58a5-4ec1-b034-04d13bbda06a")
 	)
 	(junction
 		(at 31.115 36.83)
@@ -8538,7 +8538,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 116.84) (xy 251.46 119.38)
+			(xy 251.46 116.84) (xy 251.46 117.475)
 		)
 		(stroke
 			(width 0)
@@ -8818,6 +8818,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 114.935) (xy 265.43 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4e7a7b-c635-4030-b419-02730c1044ed")
+	)
+	(wire
+		(pts
 			(xy 144.145 170.815) (xy 147.32 170.815)
 		)
 		(stroke
@@ -9048,16 +9058,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 114.3) (xy 260.985 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d49013a-106a-46b6-83bd-ec5ab0370c01")
-	)
-	(wire
-		(pts
 			(xy 169.545 137.16) (xy 170.815 137.16)
 		)
 		(stroke
@@ -9075,6 +9075,16 @@
 			(type default)
 		)
 		(uuid "6e2c2637-d284-4cef-8475-f5db9915ddb2")
+	)
+	(wire
+		(pts
+			(xy 251.46 117.475) (xy 265.43 117.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e8b9d44-880b-4aa6-923d-27addf519a5c")
 	)
 	(wire
 		(pts
@@ -9188,7 +9198,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.145 114.3) (xy 268.605 114.3)
+			(xy 275.59 114.935) (xy 273.05 114.935)
 		)
 		(stroke
 			(width 0)
@@ -9478,6 +9488,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 114.935) (xy 251.46 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9a90610-a0c4-4e61-ba53-c6717c8eba25")
+	)
+	(wire
+		(pts
 			(xy 231.14 74.295) (xy 231.14 69.215)
 		)
 		(stroke
@@ -9508,7 +9528,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.145 116.84) (xy 268.605 116.84)
+			(xy 275.59 117.475) (xy 273.05 117.475)
 		)
 		(stroke
 			(width 0)
@@ -9705,6 +9725,16 @@
 			(type default)
 		)
 		(uuid "ca798bf7-de59-469c-9b10-14bd3bd1485b")
+	)
+	(wire
+		(pts
+			(xy 251.46 117.475) (xy 251.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cabe020f-1673-4903-a94a-40c621f02fb6")
 	)
 	(wire
 		(pts
@@ -9965,16 +9995,6 @@
 			(type default)
 		)
 		(uuid "f02b797b-4869-416a-a42c-2e7a1bfa069c")
-	)
-	(wire
-		(pts
-			(xy 260.985 116.84) (xy 251.46 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1babde2-3797-4717-92ee-12ab2e643d93")
 	)
 	(wire
 		(pts
@@ -10669,7 +10689,7 @@
 		(uuid "1b30c138-99a9-42d4-bee1-7c62bd5dbfbd")
 	)
 	(label "Din_P"
-		(at 252.095 116.84 0)
+		(at 256.54 117.475 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10823,7 +10843,7 @@
 		(uuid "3dc353ad-d436-40db-a112-62fa91d21732")
 	)
 	(label "D_N"
-		(at 271.145 114.3 0)
+		(at 275.59 114.935 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11395,7 +11415,7 @@
 		(uuid "a5918e19-414b-4692-8793-3d040d345dbe")
 	)
 	(label "Din_N"
-		(at 252.095 114.3 0)
+		(at 256.54 114.935 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11461,7 +11481,7 @@
 		(uuid "ade6cdd4-b422-4a06-b277-5c8b761ad626")
 	)
 	(label "D_P"
-		(at 271.145 116.84 0)
+		(at 275.59 117.475 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18066,7 +18086,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 264.795 116.84 90)
+		(at 269.24 117.475 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18074,15 +18094,15 @@
 		(dnp no)
 		(uuid "9b9fce85-8d05-4063-8db7-2f2f89e40d7c")
 		(property "Reference" "R2"
-			(at 259.715 115.57 90)
+			(at 264.16 116.205 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "68"
-			(at 269.875 118.11 90)
+		(property "Value" "22"
+			(at 274.32 118.745 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18090,7 +18110,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 264.795 118.618 90)
+			(at 269.24 119.253 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18099,7 +18119,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
-			(at 264.795 116.84 0)
+			(at 269.24 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18108,7 +18128,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.795 116.84 0)
+			(at 269.24 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18116,8 +18136,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "0402WGF680JTCE"
-			(at 264.795 116.84 0)
+		(property "LCSC" "0402WGF220JTCE"
+			(at 269.24 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18125,8 +18145,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25131"
-			(at 264.795 116.84 0)
+		(property "LCSC Part #" "C25092"
+			(at 269.24 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22418,7 +22438,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 264.795 114.3 90)
+		(at 269.24 114.935 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22426,15 +22446,15 @@
 		(dnp no)
 		(uuid "f47014b0-7207-47bf-9eba-74b9583a38fc")
 		(property "Reference" "R1"
-			(at 259.715 113.03 90)
+			(at 264.16 113.665 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "68"
-			(at 269.875 115.57 90)
+		(property "Value" "22"
+			(at 274.32 116.205 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22442,7 +22462,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 264.795 116.078 90)
+			(at 269.24 116.713 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22451,7 +22471,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
-			(at 264.795 114.3 0)
+			(at 269.24 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22460,7 +22480,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.795 114.3 0)
+			(at 269.24 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22468,8 +22488,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "0402WGF680JTCE"
-			(at 264.795 114.3 0)
+		(property "LCSC" "0402WGF220JTCE"
+			(at 269.24 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22477,8 +22497,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25131"
-			(at 264.795 114.3 0)
+		(property "LCSC Part #" "C25092"
+			(at 269.24 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
