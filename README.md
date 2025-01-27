@@ -1,14 +1,5 @@
-This is a simple FPGA system on module based on the iCE40UP5K. It is currently in the testing stage with V1, and V2 is likely to be manufactured in the near future. V3 will focus on efficency improvements by using switch mode power supplies instead of linear regulators, and V4 will package the whole lot into a small bundle.
-I may also develop a programming board using an FT232H. 
-
-The V1 Board:
-
-![IMG_3228](https://github.com/Tobi-McKellar/iCE40UP5k_Breakout/assets/109800333/aefcc8c5-d4c3-401b-9e8b-e29f7962f2f3)
+This is a simple FPGA breakout board based on the iCE40UP5K. Exposing 16 GPIO via two 6x1 PMOD ports and one 6x2 PMOD port, as well as 11 LEDs, 3 buttons, and one capacitive touch button, the board can be powered via USB-C or the appropriate mounting holes. Programmed via [SOIC-Bite](https://github.com/SimonMerrett/SOICbite/blob/master/README.md). The schematic and PCB can be viewed online [here](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FTobi-McKellar%2FiCE40UP5k_Breakout%2Ftree%2Fmain%2FFPGA_SOM) via KiCanvas.
+<img width="470" alt="Screenshot 2025-01-28 at 12 22 27 AM" src="https://github.com/user-attachments/assets/9bd2b797-f2d7-4050-8a35-e0215cf6bc1b" />
 
 
-The V2 PCB design can be seen below:
-
-
-
-<img width="777" alt="image" src="https://github.com/Tobi-McKellar/iCE40UP5k_Breakout/assets/109800333/99c9e4d2-dfe9-4964-99f4-619fa705a4ce">
-<img width="548" alt="image" src="https://github.com/Tobi-McKellar/iCE40UP5k_Breakout/assets/109800333/8e56ffb5-2542-4a15-b5b0-4647992470f4">
+![IMG_4406](https://github.com/user-attachments/assets/16c2c74e-8777-48ee-86aa-30cebafd3264)
