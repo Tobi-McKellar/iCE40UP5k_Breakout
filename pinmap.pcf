@@ -1,0 +1,60 @@
+
+# Clock
+set_io clk 44
+set_frequency clk 24.0
+
+# Normal LEDs
+set_io -nowarn YLED0 23
+set_io -nowarn YLED1 25
+set_io -nowarn RLED0 28
+set_io -nowarn RLED1 31
+set_io -nowarn GLED0 18
+set_io -nowarn GLED1 19
+set_io -nowarn BLED0 20
+set_io -nowarn BLED1 21
+
+# RGB LEDs
+set_io -nowarn RGB_R 39
+set_io -nowarn RGB_G 40
+set_io -nowarn RGB_B 41
+
+# Pushbuttons
+set_io -nowarn pattern[0] 38
+set_io -nowarn pattern[1] 11
+set_io -nowarn pattern[2] 12
+
+# Capacitive touch button
+set_io -nowarn pattern[3] 37
+
+# PMODs
+
+# 3V3 GND 3 2 1 0
+# 3V3 GND 7 6 5 4
+
+# PMOD1
+set_io -nowarn PMOD1_3 4
+set_io -nowarn PMOD1_2 6
+set_io -nowarn PMOD1_1 9
+set_io -nowarn PMOD1_0 10
+
+# PMOD2
+set_io -nowarn PMOD2_3 32
+set_io -nowarn PMOD2_2 34
+set_io -nowarn PMOD2_1 35
+set_io -nowarn PMOD2_0 36
+
+# PMOD3
+set_io -nowarn PMOD3_7 43
+set_io -nowarn PMOD3_6 45
+set_io -nowarn PMOD3_5 47
+set_io -nowarn PMOD3_4 2
+set_io -nowarn PMOD3_3 42
+set_io -nowarn PMOD3_2 46
+set_io -nowarn PMOD3_1 48
+set_io -nowarn PMOD3_0 3
+
+# USB
+set_io -nowarn USB_DP 27
+set_io -nowarn USB_DN 26
+set_io -nowarn USB_PULLUP 13
+
