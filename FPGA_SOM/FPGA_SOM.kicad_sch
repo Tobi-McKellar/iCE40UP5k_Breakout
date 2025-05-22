@@ -8041,12 +8041,6 @@
 		)
 	)
 	(junction
-		(at 251.46 117.475)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00d8c525-5138-49a4-9dca-186ab20dd1de")
-	)
-	(junction
 		(at 172.085 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8059,12 +8053,6 @@
 		(uuid "14e97523-a63e-4e9d-b63f-4c6605115c74")
 	)
 	(junction
-		(at 251.46 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "182f6b46-e595-4159-b7a7-2834dc2e882c")
-	)
-	(junction
 		(at 209.55 69.215)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8075,6 +8063,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d357912-d093-49e0-979c-eb0aded4a5a4")
+	)
+	(junction
+		(at 251.46 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33099109-256a-44c2-b3be-17faa9d4c2c3")
 	)
 	(junction
 		(at 225.425 30.48)
@@ -8113,6 +8107,12 @@
 		(uuid "64f903ca-bd92-4695-980a-8d7c71ae8ab9")
 	)
 	(junction
+		(at 251.46 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71140fa1-f96c-44fa-9aa2-237f5a1d9516")
+	)
+	(junction
 		(at 104.775 112.395)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8147,6 +8147,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95f00a5e-870d-476a-8b7a-32d0bd43ba38")
+	)
+	(junction
+		(at 264.16 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d0be76c-371c-45fb-8090-de011951c3ca")
 	)
 	(junction
 		(at 271.78 33.02)
@@ -8448,13 +8454,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.085 36.83) (xy 45.72 36.83)
+			(xy 56.515 47.625) (xy 56.515 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e59180c-2f60-4a86-a9c2-43e99ca217bc")
+		(uuid "1f32a42b-de0b-4126-b667-e08fbd8a798b")
 	)
 	(wire
 		(pts
@@ -8538,16 +8544,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 116.84) (xy 251.46 117.475)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26790a46-8472-451c-9858-aaac1ea198b6")
-	)
-	(wire
-		(pts
 			(xy 40.005 170.815) (xy 40.005 173.99)
 		)
 		(stroke
@@ -8555,16 +8551,6 @@
 			(type default)
 		)
 		(uuid "26a9e9e3-d0af-4674-b0ba-f47118a67564")
-	)
-	(wire
-		(pts
-			(xy 70.485 36.83) (xy 71.12 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "281d1321-129a-4cb1-8d0d-5641e427f730")
 	)
 	(wire
 		(pts
@@ -8595,6 +8581,16 @@
 			(type default)
 		)
 		(uuid "2baaedc5-ab04-4bbe-862a-8d64729dfe8e")
+	)
+	(wire
+		(pts
+			(xy 251.46 116.84) (xy 251.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce384e6-d5d8-440c-ae5e-e09c004b59d6")
 	)
 	(wire
 		(pts
@@ -8818,7 +8814,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 114.935) (xy 265.43 114.935)
+			(xy 251.46 113.03) (xy 265.43 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8845,6 +8841,16 @@
 			(type default)
 		)
 		(uuid "4ef16009-73b1-4ec6-9e66-14c71fed141d")
+	)
+	(wire
+		(pts
+			(xy 264.16 123.825) (xy 264.16 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f435fec-4bd3-42d3-8269-b4698565c1c8")
 	)
 	(polyline
 		(pts
@@ -8945,6 +8951,16 @@
 			(type default)
 		)
 		(uuid "57e5220e-5ef4-4691-a401-6ddc8a573a74")
+	)
+	(wire
+		(pts
+			(xy 251.46 115.57) (xy 251.46 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e95f3a-5853-47ac-97e3-51f66e078b48")
 	)
 	(wire
 		(pts
@@ -9078,7 +9094,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 117.475) (xy 265.43 117.475)
+			(xy 251.46 115.57) (xy 264.16 115.57)
 		)
 		(stroke
 			(width 0)
@@ -9095,16 +9111,6 @@
 			(type default)
 		)
 		(uuid "6ebbf03b-5885-4385-ae6d-c92367c21977")
-	)
-	(wire
-		(pts
-			(xy 56.515 33.655) (xy 56.515 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f4e5da7-8b47-4094-bb43-8dfe6ac4eae7")
 	)
 	(wire
 		(pts
@@ -9138,7 +9144,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 36.83) (xy 81.915 33.655)
+			(xy 81.915 36.83) (xy 81.915 36.195)
 		)
 		(stroke
 			(width 0)
@@ -9178,16 +9184,6 @@
 	)
 	(wire
 		(pts
-			(xy 56.515 47.625) (xy 56.515 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c9197a1-8b06-4e3f-922f-6ea9e9c0a0c2")
-	)
-	(wire
-		(pts
 			(xy 64.77 144.145) (xy 73.025 144.145)
 		)
 		(stroke
@@ -9198,7 +9194,17 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 114.935) (xy 273.05 114.935)
+			(xy 56.515 36.195) (xy 56.515 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f2c66f9-b8df-4048-b146-be4d1f77aa13")
+	)
+	(wire
+		(pts
+			(xy 275.59 113.03) (xy 273.05 113.03)
 		)
 		(stroke
 			(width 0)
@@ -9208,7 +9214,7 @@
 	)
 	(wire
 		(pts
-			(xy 56.515 36.83) (xy 56.515 37.465)
+			(xy 56.515 36.83) (xy 56.515 40.005)
 		)
 		(stroke
 			(width 0)
@@ -9478,7 +9484,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.115 36.83) (xy 31.115 37.465)
+			(xy 31.115 36.83) (xy 31.115 40.005)
 		)
 		(stroke
 			(width 0)
@@ -9488,7 +9494,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 114.935) (xy 251.46 114.3)
+			(xy 251.46 113.03) (xy 251.46 114.3)
 		)
 		(stroke
 			(width 0)
@@ -9528,13 +9534,23 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 117.475) (xy 273.05 117.475)
+			(xy 275.59 115.57) (xy 273.05 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ae512410-6f1d-4fa6-b754-e5f29160a7da")
+	)
+	(wire
+		(pts
+			(xy 31.115 36.195) (xy 31.115 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae807508-ce4f-4801-8300-402c12118852")
 	)
 	(wire
 		(pts
@@ -9638,7 +9654,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 37.465) (xy 81.915 36.83)
+			(xy 81.915 36.83) (xy 81.915 40.005)
 		)
 		(stroke
 			(width 0)
@@ -9688,16 +9704,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 36.83) (xy 96.52 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c33cdec9-3350-4913-b77a-e0dbbee9b694")
-	)
-	(wire
-		(pts
 			(xy 249.555 30.48) (xy 262.255 30.48)
 		)
 		(stroke
@@ -9728,13 +9734,13 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 117.475) (xy 251.46 119.38)
+			(xy 264.16 115.57) (xy 265.43 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cabe020f-1673-4903-a94a-40c621f02fb6")
+		(uuid "caf3ef7a-a215-4241-b751-fc80c29d5da2")
 	)
 	(wire
 		(pts
@@ -9775,16 +9781,6 @@
 			(type default)
 		)
 		(uuid "d1a2f8dd-98c0-415b-89fc-54baaaa86961")
-	)
-	(wire
-		(pts
-			(xy 17.145 70.485) (xy 17.145 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2811d7c-2a63-4cc3-a824-ffd59bb34eb4")
 	)
 	(wire
 		(pts
@@ -9898,7 +9894,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 111.76) (xy 251.46 114.3)
+			(xy 251.46 111.76) (xy 251.46 113.03)
 		)
 		(stroke
 			(width 0)
@@ -10015,16 +10011,6 @@
 			(type default)
 		)
 		(uuid "f4a54776-7589-4665-9d9d-51c32787b091")
-	)
-	(wire
-		(pts
-			(xy 31.115 33.655) (xy 31.115 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f52aa672-2ed0-4848-87fd-0f1637b6036e")
 	)
 	(wire
 		(pts
@@ -10369,7 +10355,7 @@
 		)
 		(uuid "58dbdde6-5dae-45b0-8ad8-0bd357de8dd3")
 	)
-	(text "Jump the header to programme\nthe flash. Leave open to program FPGA."
+	(text "Jump the header to programme\nthe fpga. Leave open to program flash only."
 		(exclude_from_sim no)
 		(at 195.58 20.32 0)
 		(effects
@@ -10424,7 +10410,7 @@
 		)
 		(uuid "75e19b88-edc2-4a62-83a9-c2efc04c9ad8")
 	)
-	(text "Revision notes for R3:\n1. Add USB-C for programming via DFU\n2. Add Go back to normal SMD LEDs\n3. Add capacitive touch\n4. Add ethernet?"
+	(text "Revision notes for R4:\n1. Add dedicated reset button\n2. Default to programme FPGA and flash instead of just flash\n3. Have clock input on pin35. \n4. Have Active low LEDs as ice40 pins default to pullup."
 		(exclude_from_sim no)
 		(at 193.04 -1.27 0)
 		(effects
@@ -10689,7 +10675,7 @@
 		(uuid "1b30c138-99a9-42d4-bee1-7c62bd5dbfbd")
 	)
 	(label "Din_P"
-		(at 256.54 117.475 0)
+		(at 256.54 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10755,7 +10741,7 @@
 		(uuid "2c4e02c0-4c4d-419a-b5e2-42e73393c556")
 	)
 	(label "3V3"
-		(at 31.115 26.035 180)
+		(at 31.115 18.415 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10821,7 +10807,7 @@
 		(uuid "3b228bb8-1d23-43e7-8861-bb54272b561c")
 	)
 	(label "3V3"
-		(at 56.515 26.035 180)
+		(at 56.515 18.415 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10843,7 +10829,7 @@
 		(uuid "3dc353ad-d436-40db-a112-62fa91d21732")
 	)
 	(label "D_N"
-		(at 275.59 114.935 0)
+		(at 275.59 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11019,7 +11005,7 @@
 		(uuid "5affc031-c71a-4ba1-8332-101d2bfdc2cc")
 	)
 	(label "31_button"
-		(at 45.72 36.83 0)
+		(at 37.465 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11052,13 +11038,13 @@
 		(uuid "670dfeef-be21-427d-a230-36f3d11a8b56")
 	)
 	(label "USB_Detect"
-		(at 17.145 62.865 0)
+		(at 264.16 123.825 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6872e868-6a27-40b2-a0b5-bafe13b84451")
 	)
@@ -11140,7 +11126,7 @@
 		(uuid "7604f334-9970-4b4c-a656-50a62b7bd4c2")
 	)
 	(label "Button_2"
-		(at 71.12 36.83 0)
+		(at 62.865 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11283,7 +11269,7 @@
 		(uuid "8da3d7f5-f08a-41be-8a1b-83235ea3e576")
 	)
 	(label "Button_6"
-		(at 96.52 36.83 0)
+		(at 87.63 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11415,7 +11401,7 @@
 		(uuid "a5918e19-414b-4692-8793-3d040d345dbe")
 	)
 	(label "Din_N"
-		(at 256.54 114.935 0)
+		(at 256.54 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11481,7 +11467,7 @@
 		(uuid "ade6cdd4-b422-4a06-b277-5c8b761ad626")
 	)
 	(label "D_P"
-		(at 275.59 117.475 0)
+		(at 275.59 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11679,7 +11665,7 @@
 		(uuid "c9b5ae9f-2d7b-4a65-ac7f-4c766b032c30")
 	)
 	(label "3V3"
-		(at 81.915 26.035 180)
+		(at 81.915 18.415 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11721,17 +11707,6 @@
 			(justify right bottom)
 		)
 		(uuid "d408797f-38cf-46f0-85db-cc87b2639b89")
-	)
-	(label "Din_P"
-		(at 17.145 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4a6f8b7-15cf-4948-9daf-44d9e18a0401")
 	)
 	(label "PMOD3_34"
 		(at 28.575 130.175 180)
@@ -13301,7 +13276,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 56.515 29.845 0)
+		(at 56.515 32.385 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13310,7 +13285,7 @@
 		(dnp no)
 		(uuid "231e2f3b-027e-421b-8570-606313faa50e")
 		(property "Reference" "R13"
-			(at 53.975 29.845 90)
+			(at 53.975 32.385 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13318,7 +13293,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 59.055 29.845 90)
+			(at 59.055 32.385 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13326,7 +13301,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 54.737 29.845 90)
+			(at 54.737 32.385 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13335,7 +13310,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 56.515 29.845 0)
+			(at 56.515 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13344,7 +13319,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 56.515 29.845 0)
+			(at 56.515 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13353,7 +13328,7 @@
 			)
 		)
 		(property "LCSC" "0402WGF1001TCE"
-			(at 56.515 29.845 0)
+			(at 56.515 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13362,7 +13337,7 @@
 			)
 		)
 		(property "LCSC Part #" " C11702"
-			(at 56.515 29.845 0)
+			(at 56.515 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14041,7 +14016,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 31.115 42.545 90)
+		(at 31.115 23.495 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14050,25 +14025,25 @@
 		(fields_autoplaced yes)
 		(uuid "377e4350-3e26-467d-8c5e-51bb45065ceb")
 		(property "Reference" "SW1"
-			(at 32.258 41.3328 90)
+			(at 34.798 22.2828 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 32.258 43.7571 90)
+			(at 34.798 24.7071 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
-			(at 26.035 42.545 0)
+			(at 36.195 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14077,7 +14052,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109061830_BZCN-TSA016A2518C_C2888430.pdf"
-			(at 26.035 42.545 0)
+			(at 36.195 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14086,7 +14061,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.115 42.545 0)
+			(at 31.115 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14095,7 +14070,7 @@
 			)
 		)
 		(property "LCSC" "TSA016A2518C"
-			(at 31.115 42.545 0)
+			(at 31.115 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14104,7 +14079,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2888430"
-			(at 31.115 42.545 0)
+			(at 31.115 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14373,7 +14348,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 41.275 36.83 270)
+		(at 31.115 43.815 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14382,7 +14357,7 @@
 		(dnp no)
 		(uuid "4227af78-dec4-414e-a4df-0250b7019708")
 		(property "Reference" "R16"
-			(at 41.275 34.925 90)
+			(at 33.02 43.815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14390,7 +14365,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 41.275 38.735 90)
+			(at 29.21 43.815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14398,7 +14373,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 41.275 38.608 90)
+			(at 29.337 43.815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14407,7 +14382,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.co.nz/en/products/detail/yageo/AC0603FR-1310KL/13694194"
-			(at 41.275 36.83 0)
+			(at 31.115 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14416,7 +14391,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.275 36.83 0)
+			(at 31.115 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14425,7 +14400,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
-			(at 41.275 36.83 0)
+			(at 31.115 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14434,7 +14409,7 @@
 			)
 		)
 		(property "LCSC" "0402WGF1002TCE"
-			(at 41.275 36.83 0)
+			(at 31.115 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14612,7 +14587,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 56.515 42.545 90)
+		(at 56.515 23.495 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14621,25 +14596,25 @@
 		(fields_autoplaced yes)
 		(uuid "44a25e78-7e01-4e3b-89ba-75018cc33f96")
 		(property "Reference" "SW2"
-			(at 57.658 41.3328 90)
+			(at 60.198 22.2828 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 57.658 43.7571 90)
+			(at 60.198 24.7071 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
-			(at 51.435 42.545 0)
+			(at 61.595 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14648,7 +14623,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109061830_BZCN-TSA016A2518C_C2888430.pdf"
-			(at 51.435 42.545 0)
+			(at 61.595 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14657,7 +14632,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 56.515 42.545 0)
+			(at 56.515 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14666,7 +14641,7 @@
 			)
 		)
 		(property "LCSC" "TSA016A2518C"
-			(at 56.515 42.545 0)
+			(at 56.515 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14675,7 +14650,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2888430"
-			(at 56.515 42.545 0)
+			(at 56.515 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14700,7 +14675,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 31.115 29.845 0)
+		(at 31.115 32.385 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14709,7 +14684,7 @@
 		(dnp no)
 		(uuid "463619a8-3793-4c02-a13e-1197ea1026cf")
 		(property "Reference" "R12"
-			(at 28.575 29.845 90)
+			(at 28.575 32.385 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14717,7 +14692,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 33.655 29.845 90)
+			(at 33.655 32.385 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14725,7 +14700,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 29.337 29.845 90)
+			(at 29.337 32.385 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14734,7 +14709,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.115 29.845 0)
+			(at 31.115 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14743,7 +14718,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 31.115 29.845 0)
+			(at 31.115 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14752,7 +14727,7 @@
 			)
 		)
 		(property "LCSC" "0402WGF1001TCE"
-			(at 31.115 29.845 0)
+			(at 31.115 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14761,7 +14736,7 @@
 			)
 		)
 		(property "LCSC Part #" " C11702"
-			(at 31.115 29.845 0)
+			(at 31.115 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16171,7 +16146,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 81.915 42.545 90)
+		(at 81.915 23.495 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16180,25 +16155,25 @@
 		(fields_autoplaced yes)
 		(uuid "6f30b501-fe11-4f5e-9d05-67bca12280d7")
 		(property "Reference" "SW3"
-			(at 83.058 41.3328 90)
+			(at 85.598 22.2828 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 83.058 43.7571 90)
+			(at 85.598 24.7071 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
-			(at 76.835 42.545 0)
+			(at 86.995 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16207,7 +16182,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109061830_BZCN-TSA016A2518C_C2888430.pdf"
-			(at 76.835 42.545 0)
+			(at 86.995 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16216,7 +16191,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.915 42.545 0)
+			(at 81.915 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16225,7 +16200,7 @@
 			)
 		)
 		(property "LCSC" "TSA016A2518C"
-			(at 81.915 42.545 0)
+			(at 81.915 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16234,7 +16209,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2888430"
-			(at 81.915 42.545 0)
+			(at 81.915 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16629,7 +16604,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 81.915 29.845 0)
+		(at 81.915 32.385 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16638,7 +16613,7 @@
 		(dnp no)
 		(uuid "73d08830-a607-453a-bcdf-c7260a64b918")
 		(property "Reference" "R14"
-			(at 79.375 29.845 90)
+			(at 79.375 32.385 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16646,7 +16621,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 84.455 29.845 90)
+			(at 84.455 32.385 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16654,7 +16629,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 80.137 29.845 90)
+			(at 80.137 32.385 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16663,7 +16638,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.915 29.845 0)
+			(at 81.915 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16672,7 +16647,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 81.915 29.845 0)
+			(at 81.915 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16681,7 +16656,7 @@
 			)
 		)
 		(property "LCSC" "0402WGF1001TCE"
-			(at 81.915 29.845 0)
+			(at 81.915 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16690,7 +16665,7 @@
 			)
 		)
 		(property "LCSC Part #" " C11702"
-			(at 81.915 29.845 0)
+			(at 81.915 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18086,7 +18061,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 269.24 117.475 90)
+		(at 269.24 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18094,7 +18069,7 @@
 		(dnp no)
 		(uuid "9b9fce85-8d05-4063-8db7-2f2f89e40d7c")
 		(property "Reference" "R2"
-			(at 264.16 116.205 90)
+			(at 264.16 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18102,7 +18077,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 274.32 118.745 90)
+			(at 274.32 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18110,7 +18085,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 269.24 119.253 90)
+			(at 269.24 117.348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18119,7 +18094,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
-			(at 269.24 117.475 0)
+			(at 269.24 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18128,7 +18103,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.24 117.475 0)
+			(at 269.24 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18137,7 +18112,7 @@
 			)
 		)
 		(property "LCSC" "0402WGF220JTCE"
-			(at 269.24 117.475 0)
+			(at 269.24 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18146,7 +18121,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25092"
-			(at 269.24 117.475 0)
+			(at 269.24 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19065,8 +19040,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 17.145 66.675 0)
-		(mirror x)
+		(at 264.16 119.38 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19074,7 +19049,7 @@
 		(dnp no)
 		(uuid "a827f306-1961-4d97-aa8e-01f26e5af06a")
 		(property "Reference" "R20"
-			(at 14.605 66.675 90)
+			(at 266.7 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19082,7 +19057,7 @@
 			)
 		)
 		(property "Value" "1k5"
-			(at 19.685 66.675 90)
+			(at 261.62 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19090,7 +19065,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 15.367 66.675 90)
+			(at 265.938 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19099,7 +19074,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.145 66.675 0)
+			(at 264.16 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19108,7 +19083,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 17.145 66.675 0)
+			(at 264.16 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19117,7 +19092,7 @@
 			)
 		)
 		(property "LCSC" "0402WGF1501TCE"
-			(at 17.145 66.675 0)
+			(at 264.16 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19126,7 +19101,7 @@
 			)
 		)
 		(property "LCSC Part #" " C25867"
-			(at 17.145 66.675 0)
+			(at 264.16 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19811,7 +19786,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 91.44 36.83 270)
+		(at 81.915 43.815 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19820,7 +19795,7 @@
 		(dnp no)
 		(uuid "b1a814d1-0efe-45fd-a1c9-83e1323a955f")
 		(property "Reference" "R18"
-			(at 91.44 34.925 90)
+			(at 83.82 43.815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19828,7 +19803,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 91.44 38.735 90)
+			(at 80.01 43.815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19836,7 +19811,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 91.44 38.608 90)
+			(at 80.137 43.815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19845,7 +19820,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.co.nz/en/products/detail/yageo/AC0603FR-1310KL/13694194"
-			(at 91.44 36.83 0)
+			(at 81.915 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19854,7 +19829,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 36.83 0)
+			(at 81.915 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19863,7 +19838,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
-			(at 91.44 36.83 0)
+			(at 81.915 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19872,7 +19847,7 @@
 			)
 		)
 		(property "LCSC" "0402WGF1002TCE"
-			(at 91.44 36.83 0)
+			(at 81.915 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21949,7 +21924,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 66.675 36.83 270)
+		(at 56.515 43.815 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21958,7 +21933,7 @@
 		(dnp no)
 		(uuid "eb8ab075-a34a-427c-88a0-78b16f542502")
 		(property "Reference" "R17"
-			(at 66.675 34.925 90)
+			(at 58.42 43.815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21966,7 +21941,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 66.675 38.735 90)
+			(at 54.61 43.815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21974,7 +21949,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 66.675 38.608 90)
+			(at 54.737 43.815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21983,7 +21958,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.co.nz/en/products/detail/yageo/AC0603FR-1310KL/13694194"
-			(at 66.675 36.83 0)
+			(at 56.515 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21992,7 +21967,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.675 36.83 0)
+			(at 56.515 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22001,7 +21976,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
-			(at 66.675 36.83 0)
+			(at 56.515 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22010,7 +21985,7 @@
 			)
 		)
 		(property "LCSC" "0402WGF1002TCE"
-			(at 66.675 36.83 0)
+			(at 56.515 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22438,7 +22413,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 269.24 114.935 90)
+		(at 269.24 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22446,7 +22421,7 @@
 		(dnp no)
 		(uuid "f47014b0-7207-47bf-9eba-74b9583a38fc")
 		(property "Reference" "R1"
-			(at 264.16 113.665 90)
+			(at 264.16 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22454,7 +22429,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 274.32 116.205 90)
+			(at 274.32 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22462,7 +22437,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 269.24 116.713 90)
+			(at 269.24 114.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22471,7 +22446,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
-			(at 269.24 114.935 0)
+			(at 269.24 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22480,7 +22455,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.24 114.935 0)
+			(at 269.24 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22489,7 +22464,7 @@
 			)
 		)
 		(property "LCSC" "0402WGF220JTCE"
-			(at 269.24 114.935 0)
+			(at 269.24 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22498,7 +22473,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25092"
-			(at 269.24 114.935 0)
+			(at 269.24 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
